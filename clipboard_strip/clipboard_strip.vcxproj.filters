@@ -1,0 +1,51 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="main">
+      <UniqueIdentifier>{6f670bbf-aa1e-4267-95e6-5b01368ca781}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="main\precompiled">
+      <UniqueIdentifier>{53024877-b1a1-4e66-a8cf-77176122a6a3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="misc">
+      <UniqueIdentifier>{9f29d0c5-deec-43c4-b1e1-a938bb2f3dad}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="input">
+      <UniqueIdentifier>{b3949eda-3f8e-4c5c-928c-85332470ef5e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="clipboard">
+      <UniqueIdentifier>{45762ec4-c15e-4f2f-b69b-018ffc6f1132}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="main.cpp">
+      <Filter>main</Filter>
+    </ClCompile>
+    <ClCompile Include="stdafx.cpp">
+      <Filter>main\precompiled</Filter>
+    </ClCompile>
+    <ClCompile Include="input.cpp">
+      <Filter>input</Filter>
+    </ClCompile>
+    <ClCompile Include="clipboard.cpp">
+      <Filter>clipboard</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="stdafx.hpp">
+      <Filter>main\precompiled</Filter>
+    </ClInclude>
+    <ClInclude Include="logger.hpp">
+      <Filter>misc</Filter>
+    </ClInclude>
+    <ClInclude Include="input.hpp">
+      <Filter>input</Filter>
+    </ClInclude>
+    <ClInclude Include="clipboard.hpp">
+      <Filter>clipboard</Filter>
+    </ClInclude>
+    <ClInclude Include="startup.hpp">
+      <Filter>misc</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>
